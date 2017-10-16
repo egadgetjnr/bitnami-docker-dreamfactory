@@ -33,7 +33,11 @@ ENV APACHE_HTTPS_PORT_NUMBER="443" \
     SMTP_PASSWORD="" \
     SMTP_PORT="" \
     SMTP_PROTOCOL="" \
-    SMTP_USER=""
+    SMTP_USER="" \
+    APP_NAME="Autom8tions API"
+    DF_LOGIN_ATTRIBUTE="username"
+    DF_ALLOW_FOREVER_SESSIONS=true
+    
 
 EXPOSE 80 443
 
